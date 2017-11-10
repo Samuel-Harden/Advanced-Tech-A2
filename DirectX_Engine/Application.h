@@ -17,6 +17,9 @@ protected:
 
 
 private:
+	void Update();
+	void Draw();
+
 	std::unique_ptr<Window> window;
 	std::unique_ptr<Renderer> renderer;
 	std::unique_ptr<Triangle> triangle;
